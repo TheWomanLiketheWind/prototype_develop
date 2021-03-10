@@ -56,9 +56,9 @@ export const Login = () => ({
       console.log('button')
       this.$refs.form.validate(valid => {
         if (valid) {
-          alert('验证成功')
+          alert('验证成功!')
         } else {
-          alert('验证失败')
+          alert('验证失败!')
           return false
         }
       })
