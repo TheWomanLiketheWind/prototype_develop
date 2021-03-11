@@ -2,11 +2,11 @@ import input from '../src/input.vue'
 import { mount } from '@vue/test-utils'
 
 describe('lg-input', () => {
-  // test('input-text', () => {
-  //   const wrapper = mount(input)
-  //   console.log('wrapper', wrapper.html())
-  //   expect(wrapper.html()).toContain('input type="text"')
-  // })
+  test('input-text', () => {
+    const wrapper = mount(input)
+    console.log('wrapper', wrapper.html())
+    expect(wrapper.html()).toContain('input type="text"')
+  })
 
   // test('input-password', (e) => {
   //   const wrapper = mount(input, {
