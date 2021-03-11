@@ -1,0 +1,17 @@
+{
+"name": "gqx-time",
+"version": "0.0.2",
+"description": "lg-time component",
+"main": "dist/cjs/index.js",
+"module": "dist/es/index.js",
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"build": "rollup -c",
+"del": "rimraf dist"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"dependencies": {
+}
+}
